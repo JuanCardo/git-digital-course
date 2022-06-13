@@ -6,16 +6,21 @@ class Bola:
 
     def trocarCor(self, cor):
         self.cor = trocar
-        print(f'A Cor Trocou para {cor}')
+
+    def mostrarCor(self, cor):
+        print(f'A Cor da Bola é {cor}')
 
 #Programa Principal
 bola = Bola('Azul', '2', 'ferro')
-print(bola.cor)
+
 while True:
     resp = input('Quer trocar a cor da bola(s/n):')
     if resp == 's':
         trocar = input(f'Troque a Cor de {bola.cor} para:')
         bola.trocarCor(trocar)
+        continue
     else:
+        resp = input('Mostrar a Cor da bola(s/n):')
+        if resp == 's':
+            bola.mostrarCor(bola.cor)
         break
-print(bola.cor)
