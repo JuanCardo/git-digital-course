@@ -1,0 +1,36 @@
+------------------------------------------------- COMANDOS -------------------------------------------------
+git --help: Exibe todos os comandos do GIT mais comumente utilizados.
+git remote add origin link: Link será o endereço do projeto em nuvem no GITHUB, onde será enviado o projeto.
+git reset --hard Digitar o ID da Versão (alterando o código localmente): Navega entre versões do código.
+
+10/06
+git update-git-for-windows : Atualizar Git na ultima versão do Windows.
+git init : Inicia um repositório  local.
+git status : Verifica quais arquivos ja foram incluidos no controle de versão e quais não estão ou quais foram atualizados.
+
+11/06
+git config --global user.name "Juan" : Configuração Inicial.
+git config --global user.email "juancardosods@gmail.com" : Configuração Inicial.
+
+12/06 
+git add .\"nome do arq" : Manda para estado Staged. Tirar Snapshots, mostrar momento que está no meu repositório.
+git add. : Adiciona todos os arquivos.
+git diff : Mostrar linhas que foram modificadas. -retiradas +add.
+git diff --staged : Mostrar os modificados no Staged.
+git commit -m "nome intuitivo" : Salva o estado. Para recuperar em processos futuros. 
+
+13/06
+git log : Histórico de commits.
+git restone "nome do arq": Remove o diff(modificação) mais recente.
+git restone --staged ou -s .\"nome do arq": Remove da área de staged.
+git remote : Mostra os repositórios remotos.
+git push origin master : Envia alterações do projeto para o repositório remoto "origin" e a branch "master".
+git pull: 'merge local', junta código do repositório remoto no local.
+git fetch: Baixa tudo do repositório remoto que não tiver no local, sem add. 
+git diff origin/master: mostra as modificações do remoto. 
+
+19/07
+git log -oneline --decorate: Usar apenas para ver em qual branch está.
+git branch "nome branch": Cria uma nova branch
+git checkout "nome branch": Muda a branch.
+git merge "nome branch": União das branch
