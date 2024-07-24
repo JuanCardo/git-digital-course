@@ -2,6 +2,7 @@
 git --help: Exibe todos os comandos do GIT mais comumente utilizados.
 git remote add origin link: Link será o endereço do projeto em nuvem no GITHUB, onde será enviado o projeto.
 git reset --hard Digitar o ID da Versão (alterando o código localmente): Navega entre versões do código.
+git remote set-url altera uma URL do repositório remoto existente.
 
 10/06
 git update-git-for-windows : Atualizar Git na ultima versão do Windows.
